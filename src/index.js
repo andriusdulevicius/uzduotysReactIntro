@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './vacation.css';
+// import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
+// import VacationList from './components/vacationList';
+// import VacationWithImages from './components/vacationWithImages';
+import VacationTable from './components/vacationTable';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <VacationTable />
   </React.StrictMode>,
   document.getElementById('root')
 );
